@@ -72,3 +72,6 @@ PROMPT="${b_white}┌ %T - $end${b_cyan}%n${end}@ ${b_yellow}%m ${b_green}[%~]${
 ${b_white}└ >$end"
 }
 
+# for WSL
+alias d="cd /mnt/d"
+alias c="cd /mnt/c"
