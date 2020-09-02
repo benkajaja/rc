@@ -75,3 +75,4 @@ ${b_white}└ >$end"
 # for WSL
 alias d="cd /mnt/d"
 alias c="cd /mnt/c"
+alias de="deactivate"
