@@ -68,7 +68,7 @@ end="%{$reset_color%}"
 
 function precmd()
 {
-PROMPT="${b_white}┌ %T - $end${b_cyan}%n${end}@ ${b_yellow}%m ${b_green}[%~]${end}     $(git_super_status)
+PROMPT="${b_white}┌ %T - $end${b_cyan}%n${end}@ ${b_yellow}%m ${b_green}[%~]${end}     $(git_super_status)      ${b_green}$(echo $VIRTUAL_ENV | awk -F/ '{print $NF}')${end}
 ${b_white}└ >$end"
 }
 
